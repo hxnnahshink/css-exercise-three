@@ -1,5 +1,6 @@
 body {
   background-color: #333;
+  box-sizing: border-box;
   font-family: sans-serif;
   font-size: 10px;
 }
@@ -16,6 +17,11 @@ nav {
   width: 420px;
 }
 
-.restaurant-list {
+.restaurant-list  {
   padding-top: 50px;
+  width: 100%
+}
+
+.location .class{
+  background-color: blue;
 }
